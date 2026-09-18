@@ -2,6 +2,15 @@
 
 Personal site for Min Sihoo, founder of WebCanBe.
 
-Current deployment: https://minsihu-acx6t5jvb-web-can-be.vercel.app
+## Structure
 
-Design direction is based on the Dante Astro theme by JustGoodUI. The original project is available at https://github.com/JustGoodUI/dante-astro-theme and is licensed under GPL-3.0.
+- Home: current work, research, earlier experiments, selected writing
+- Writing: 9 long-form notes reconstructed from project history
+- Visual direction: based on the Dante Astro theme by JustGoodUI
+
+## Source theme
+
+The original Dante project is available at:
+https://github.com/JustGoodUI/dante-astro-theme
+
+Its GPL-3.0 license is preserved in this repository.
