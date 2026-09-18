@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Min Sihoo</title>
+  <meta name="description" content="Min Sihoo — founder of WebCanBe. Building companies and products for the internet." />
+  <style>
+    :root{--bg:#f4f1e9;--fg:#171717;--muted:#6c6860;--line:#c9c3b8}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--fg);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
+    .wrap{width:min(768px,calc(100% - 32px));margin:0 auto}
+    header{display:flex;align-items:center;gap:16px;padding-top:28px;margin-bottom:48px}
+    .avatar{width:80px;height:80px;border-radius:50%;object-fit:cover}
+    .brand{flex:1}.brand h1{font:500 30px/1.05 Georgia,serif;margin:0}.brand p{margin:5px 0 0;font-size:14px;color:var(--muted)}
+    nav{display:flex;gap:18px;font:15px Georgia,serif}a{color:inherit;text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:3px}
+    .hero{display:flex;flex-direction:column;gap:30px;margin-bottom:88px}
+    .hero h2{font:500 48px/1.12 Georgia,serif;letter-spacing:-.02em;margin:0}
+    .hero img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+    .prose{font:20px/1.58 Georgia,serif}.prose p{margin:0 0 18px}
+    .btn{display:inline-flex;width:max-content;border:1px solid var(--fg);border-radius:999px;padding:10px 16px;font-size:14px}.btn:hover{background:var(--fg);color:var(--bg);text-decoration:none}
+    section.block{margin-bottom:88px}.section-title{font:italic 400 25px Georgia,serif;margin:0 0 40px}
+    article.item{padding:26px 0;border-top:1px dashed var(--line)}article.item:first-of-type{border-top:0;padding-top:0}
+    .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+    .item h3{font:500 29px/1.15 Georgia,serif;margin:0 0 12px}.item p{margin:0;font-size:16px;line-height:1.55;color:#393733}.meta{font-size:13px;color:var(--muted);margin-top:14px}
+    .quote{font:400 34px/1.25 Georgia,serif;border-top:1px dashed var(--line);padding-top:30px}
+    footer{border-top:1px dashed var(--line);padding:28px 0 48px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+    .links{display:flex;gap:16px;flex-wrap:wrap}
+    @media(max-width:640px){nav{display:none}.avatar{width:64px;height:64px}.brand h1{font-size:25px}.hero h2{font-size:36px}.prose{font-size:18px}.hero,section.block{margin-bottom:68px}.quote{font-size:28px}.item h3{font-size:25px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <img class="avatar" src="https://dante-astro-theme.netlify.app/_astro/avatar.Bxb7IJGT_16W41D.webp" alt="Portrait" />
+      <div class="brand"><h1>Min Sihoo</h1><p>Founder, WebCanBe</p></div>
+      <nav><a href="/">Home</a><a href="#ventures">Ventures</a><a href="#notes">Notes</a></nav>
+    </header>
+    <section class="hero">
+      <h2>Building companies and products for the internet.</h2>
+      <img src="https://dante-astro-theme.netlify.app/_astro/hero.oAaufW9l_Z2cofcv.webp" alt="Workspace" />
+      <div class="prose">
+        <p>I'm <strong>Min Sihoo</strong>, founder of <a href="https://webcanbe.com">WebCanBe</a>.</p>
+        <p>I build at the intersection of products, design, software, and distribution — with a bias toward small teams, fast execution, and work that compounds over time.</p>
+        <p>This is my home on the internet: companies, experiments, and ideas worth keeping.</p>
+      </div>
+      <a class="btn" href="mailto:hello@webcanbe.com">Get in touch</a>
+    </section>
+    <section class="block" id="ventures">
+      <h2 class="section-title">Ventures</h2>
+      <article class="item"><div class="eyebrow">Company</div><h3><a href="https://webcanbe.com">WebCanBe</a></h3><p>An independent web production studio working with creator-led businesses and agencies.</p><div class="meta">Founder · Current</div></article>
+      <article class="item"><div class="eyebrow">Independent work</div><h3>Products & experiments</h3><p>New internet products, tools, and systems across software, design, automation, and distribution.</p><div class="meta">Ongoing</div></article>
+    </section>
+    <section class="block"><h2 class="section-title">About</h2><div class="prose"><p>I care about building useful things with as little unnecessary complexity as possible.</p><p>Most of my attention goes toward WebCanBe and new internet businesses. I prefer direct communication, strong systems, and products that earn attention by being genuinely useful.</p></div></section>
+    <section class="block"><p class="quote">Build fewer things. Make the ones that matter unusually good.</p></section>
+    <section class="block" id="notes"><h2 class="section-title">Notes</h2><article class="item"><h3>Building WebCanBe</h3><p>Notes from building the studio, its systems, and what comes next.</p></article><article class="item"><h3>Products, design, and the internet</h3><p>Working notes on products, technology, business, and ideas that survive more than a day.</p></article><article class="item"><h3>Current direction</h3><p>Small teams, global markets, software leverage, and durable internet businesses.</p></article></section>
+    <footer><div>© 2026 Min Sihoo</div><div class="links"><a href="https://github.com/Webcanbe">GitHub</a><a href="https://webcanbe.com">WebCanBe</a><a href="mailto:hello@webcanbe.com">Email</a></div></footer>
+  </main>
+</body>
+</html>
