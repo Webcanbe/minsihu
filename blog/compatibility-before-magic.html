@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Compatibility Before Magic — Min Sihoo</title><meta name="description" content="Why a code-editing product needs explicit environment boundaries before it promises universal visual editing."><link rel="stylesheet" href="../../styles.css"></head><body><main class="wrap"><header>
+    <img class="avatar" src="https://dante-astro-theme.netlify.app/_astro/avatar.Bxb7IJGT_16W41D.webp" alt="Temporary portrait placeholder" />
+    <div class="brand"><h1><a href="../../">Min Sihoo</a></h1><p>13 · Founder, WebCanBe</p></div>
+    <nav><a href="../../#work">Work</a><a href="../../#research">Research</a><a href="../../archive.html">Archive</a><a href="../../blog/">Writing</a></nav>
+  </header><article class="post-head"><p class="kicker">Writing</p><h1 class="page-title">Compatibility Before Magic</h1><p class="post-meta">WebCanBe compatibility engineering · August 2026</p></article><article class="prose post-body"><p>Visual editing gets impressive quickly in a demo. Real repositories make the problem much harder.</p>
+<p>A component may run on the client, the server, or both. Environment variables may be safe in one place and dangerous in another. A file can look visually simple while depending on framework behavior that a visual editor should not rewrite casually.</p>
+<h2>Classify before editing</h2>
+<p>I started designing an Environment Boundary Map and detection rules for WebCanBe. The goal was to identify framework and runtime constraints before deciding what kind of editing the product should allow.</p>
+<p>For a Next.js project, that includes boundaries created by server and client components, explicit directives, environment-variable exposure, route behavior, and patterns that the system cannot yet classify confidently.</p>
+<h2>Unsupported is better than silently wrong</h2>
+<p>I would rather show that a file is preview-only or code-edit-only than offer a visual control that corrupts the project. That led to a compatibility model instead of a universal-editing promise.</p>
+<p>The product can progressively earn support: inspect the repository, classify its boundaries, explain what is safe, and only then expose higher-level manipulation.</p>
+<h2>Magic becomes trustworthy when its limits are visible</h2>
+<p>This is a recurring principle in my work. A system feels more powerful when it does not pretend. Explicit boundaries let automation go further because the user can see where confidence ends.</p><p><a href="/blog/">← Back to all writing</a></p></article><footer><div>© 2026 Min Sihoo</div><div class="links"><a href="https://github.com/Webcanbe">GitHub</a><a href="https://webcanbe.com">WebCanBe</a><a href="../../archive.html">Archive</a><a href="../../blog/">Writing</a><a href="mailto:hello@webcanbe.com">Email</a></div></footer></main></body></html>
