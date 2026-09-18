@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/archive.html",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
